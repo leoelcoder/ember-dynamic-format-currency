@@ -8,6 +8,32 @@ This README outlines the details of collaborating on this Ember addon.
 * `npm install`
 * `bower install`
 
+## Example
+
+* `{{format-currency 1000}}`
+
+$ 1,000.00
+
+* `{{format-currency 1000.30}}`
+
+$ 1,000.30
+
+* `{{format-currency 900.30 2}}`
+
+900.30
+
+* `{{format-currency 900.30 3 "€"}}`
+
+€ 900.300
+
+* `{{format-currency 4300.30 3 "$" " "}}`
+
+$ 4 300.300
+
+* `{{format-currency 4300.30 3 "$" ","}}`
+
+$ 4,300.300
+
 ## Running
 
 * `ember server`
