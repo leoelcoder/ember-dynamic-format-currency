@@ -1,6 +1,6 @@
 {
   "name": "ember-dynamic-format-currency",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Helper to display quantitys with beauty currency formato and dynamic decimal option (2 by default).",
   "directories": {
     "doc": "doc",
@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/leoelcoder/ember-dynamic-format-currency",
   "engines": {
     "node": ">= 0.10.0"
   },
