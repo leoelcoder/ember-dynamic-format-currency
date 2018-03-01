@@ -1,4 +1,4 @@
-import Ember from 'ember';
+import { helper } from '@ember/component/helper';
 
 export function formatCurrency([quantity, decimals, sign, separator, decimalSeparator], namedArgs) {
   sign = sign !== undefined ? sign : namedArgs.sign !== undefined ? namedArgs.sign : "$";
@@ -14,4 +14,4 @@ export function formatCurrency([quantity, decimals, sign, separator, decimalSepa
   return sign.toString() + " " + number + decimalSeparator + decimal_part;
 }
 
-export default Ember.Helper.helper(formatCurrency);
+export default helper(formatCurrency);

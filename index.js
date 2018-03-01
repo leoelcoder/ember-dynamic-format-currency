@@ -1,6 +1,5 @@
-/* jshint node: true */
 'use strict';
 
 module.exports = {
-  name: 'ember-format-currency'
+  name: 'ember-dynamic-format-currency'
 };
