@@ -1,12 +1,8 @@
-# Ember-format-currency
-
-This README outlines the details of collaborating on this Ember addon.
+# ember-dynamic-format-currency
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+`ember install ember-dynamic-format-currency`
 
 ## Example with arguments
 
