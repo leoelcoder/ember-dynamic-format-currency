@@ -12,11 +12,11 @@ This README outlines the details of collaborating on this Ember addon.
 
 * `{{format-currency 1000}}`
 
-$ 1, 000.00
+$ 1,000.00
 
 * `{{format-currency 1000.30}}`
 
-$ 1, 000.30
+$ 1,000.30
 
 * `{{format-currency 900.30 2}}`
 
@@ -38,11 +38,11 @@ $ 4,300.300
 
 * `{{format-currency 1000}}`
 
-$ 1, 000.00
+$ 1,000.00
 
 * `{{format-currency 1000.30}}`
 
-$ 1, 000.30
+$ 1,000.30
 
 * `{{format-currency 900.30 decimals=2}}`
 
