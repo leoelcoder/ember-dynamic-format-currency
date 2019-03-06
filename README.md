@@ -1,5 +1,10 @@
 # ember-dynamic-format-currency
 
+# IMPORTANT
+
+* This addon has been update to ember 3.0 and ember cli was updated too.
+* If you are using ember 2.x you should use the version 0.2.0 of this addon
+
 ## Installation
 
 `ember install ember-dynamic-format-currency`
