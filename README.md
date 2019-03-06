@@ -1,12 +1,8 @@
-# Ember-format-currency
-
-This README outlines the details of collaborating on this Ember addon.
+# ember-dynamic-format-currency
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+`ember install ember-dynamic-format-currency`
 
 ## Example with arguments
 
@@ -34,6 +30,10 @@ $ 4 300.303
 
 $ 4,300.300
 
+* `{{format-currency 4300.30 3 "$" " " ","}}`
+
+$ 4 300,300
+
 ## Example with named arguments
 
 * `{{format-currency 1000}}`
@@ -59,6 +59,10 @@ $ 4 300.303
 * `{{format-currency 4300.30 decimals=3 sign="$" separator=","}}`
 
 $ 4,300.300
+
+* `{{format-currency 4300.30 decimals=3 sign="$" separator=" " decimalSeparator=","}}`
+
+$ 4 300,300
 
 
 ## Arguments and named arguments
