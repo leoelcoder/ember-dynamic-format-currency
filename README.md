@@ -1,10 +1,5 @@
 # ember-dynamic-format-currency
 
-# IMPORTANT
-
-* This addon has been update to ember 3.0 and ember cli was updated too.
-* If you are using ember 2.x you should use the version 0.2.0 of this addon
-
 ## Installation
 
 `ember install ember-dynamic-format-currency`
@@ -73,24 +68,27 @@ $ 4 300,300
 ## Arguments and named arguments
 
 You can mix both, no named arguments and named arguments,
-BUT IT IS IMPORTAN THE ORDER WHEN YOU USE NO NAMED ARGUMENTS
+BUT IT IS IMPORTANT THE ORDER WHEN YOU USE NO NAMED ARGUMENTS
 the order of the no named arguments
 First argument: decimals
 Second argument: sign
 Third argument: thousands separator
-## Running
 
+## Compatibility
+
+* Ember.js v4.4 or above
+* Ember CLI v4.4 or above
+* Node.js v14 or above
+
+## Running
 * `ember server`
 * Visit your app at http://localhost:4200.
 
 ## Running Tests
-
 * `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
-## Building
+## License
+This project is licensed under the [MIT License](LICENSE.md).
 
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
